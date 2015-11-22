@@ -30,7 +30,7 @@ a:hover {
 }
 
 .navbar{
-	background-color: #4ea6bc;
+	background-color: #74cfd4;
 	padding: 15px ;
 	border-radius: 0;
 	margin: 0;
@@ -96,9 +96,12 @@ input[type=file]:hover{
 	font-size:24px;
 	background:#a5d3db;
 	border-color:rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25);
-	border:1px solid;
+	border:1px solid #a5d3db;
 	padding:15px 20px;
 	border-radius:10px;
+	color: #fff;
+    width: 300px;
+    margin: 0 auto;
 }
 .uploadButton:hover {
 	background:#FFF;
@@ -236,7 +239,7 @@ input[type=file]:hover{
 
 
 .quantity{	
-	color: #4ea6bc;
+	color: #74cfd4;
 	font-size :18px;
 	font-weight: bold;
 	float : left;
@@ -307,6 +310,11 @@ input[type=file]:hover{
 
 .blockDtl {
 	padding-bottom: 20px;
+}
+
+.blockDtl img {
+	min-width: 300px;
+	width: 60%;
 }
 /* Popovers */
 
